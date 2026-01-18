@@ -1,28 +1,52 @@
-package com.tka.jan15;
+package com.tka.janA1;
 
 public class Test {
-	
-	public static void main (String[]args) {
+	public static void main(String[] args) {
 		
-		Cricket [] players = new Cricket [5];
 		
-		players [0] = new Cricket ("virat kohali",18,"RCB",12000,4);
+		Player p1 = new Player(1,7,"MSD",5439,0,"CSK");
 		
-		players [1] = new Cricket ("glenn maxwell",32,"RCB",3500,30);
+		Player p2= new Player(2,8,"jadeja",3260,170,"CSK");
 		
-		players [2] = new Cricket ("dinesh kartik",19,"RCB",4500,0);
+		Player p3 = new Player(3,11,"sanju",4700,0,"CSK");
 		
-		players [3] = new Cricket ("mohammed siraj",73,"RCB",600,85);
+		Player p4 = new Player(4,3,"dewald brewis",455,1,"CSK");
 		
-		players [4] = new Cricket ("faf du plessis",13,"RCB",4500,2);
+		Player p5 = new Player(5,30,"dube",1800,5,"CSK");
 		
-	
-
-	for (int i = 0;i<players.length;i++) {
+		Player p6 = new Player(6,97,"sarfarz",585,0,"CSK");
 		
-		System.out.println(players[i].getPlayerName()+"|| Jersey:"+players[i].getJerseyNumber()+"||Team:"+
-		players[i].getTeamName()+"||Runs:"+players[i].getRuns()+"||Wickets:"+players[i].getWicket());
-	}
-
+		Player p7 = new Player(7,56,"ayush mahtre",94,0,"CSK");
+		
+		Player p8 = new Player(8,15,"noor",20,48,"CSK");
+		
+		Player p9 = new Player(9,37,"urvil",68,0,"CSK");
+		
+		Player p10 = new Player(10,47,"anushul",286,10,"CSK");
+		
+		Player p11 = new Player(11,49,"mukesh",32,36,"CSK");
+		
+		
+		System.out.println(p1.toString());
+		
+		System.out.println(p2.toString());
+		
+		System.out.println(p3.toString());
+		
+		System.out.println(p4.toString());
+		
+		System.out.println(p5.toString());
+		
+		System.out.println(p6.toString());
+		
+		System.out.println(p7.toString());
+		
+		System.out.println(p8.toString());
+		
+		System.out.println(p9.toString());
+		
+		System.out.println(p10.toString());
+		
+		System.out.println(p11.toString());
 	}
 }
